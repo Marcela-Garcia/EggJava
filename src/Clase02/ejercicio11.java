@@ -19,7 +19,7 @@ Bucles y sentencias de salto break y continue
  */
 
 /**
- *Utilizar la sentencia switch para comparar el valor ingresado con cada uno de los 
+ *Utilizar la sentencia switch (Segun) para comparar el valor ingresado con cada uno de los 
  * valores posibles de tipoMotor.
  * La sentencia break permite salir del switch una vez se ha encontrado la opción correspondiente, 
  * y la sentencia default se ejecuta en caso de que ninguna 

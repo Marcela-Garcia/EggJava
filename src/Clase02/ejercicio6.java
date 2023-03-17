@@ -22,3 +22,11 @@ public class ejercicio6 {
   }
 
 }
+/*
+El método compararNumeros toma dos parámetros de entrada, numero1 y numero2, 
+que son dos números enteros. Luego, se compara si numero1 es mayor que numero2 
+utilizando una estructura if-else (SiNo) Si numero1 es mayor que numero2, se devuelve 
+numero1, de lo contrario se devuelve numero2. 
+Por lo tanto, este método devuelve el número mayor de los dos números 
+proporcionados.
+*/

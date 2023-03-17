@@ -17,4 +17,9 @@ public class Ejercicio5 {
         System.out.println("La raíz cuadrada de " + numero + " es: " + raizCuadrada);
     }
 }
-
+/*
+double raizCuadrada = Math.sqrt(numero);
+Este comando calcula la raíz cuadrada del número entero ingresado por el usuario
+utilizando el método estático "sqrt" de la clase Math y 
+almacena el resultado en una variable de tipo doble llamada "raizCuadrada".
+*/

@@ -17,4 +17,8 @@ public class Ejercicio4 {
      }
     
 }
-
+/*
+double fahrenheit = 32 + (9.0 / 5) * celsius;
+Este comando calcula la temperatura equivalente en grados Fahrenheit a partir de los grados Celsius 
+que el usuario ingresó y la almacena en una variable de tipo doble llamada "fahrenheit".
+*/

@@ -26,5 +26,13 @@ public class ejercicio8 {
              }}
     }
 }
-  
+  /*
+Las excepciones son errores que se producen durante la ejecución del programa 
+y que pueden interrumpir su funcionamiento normal. 
+Al utilizar try, puede detectar y manejar estas excepciones
+se utiliza una estructura condicional "if-else" para comparar la cadena "frase" 
+con la cadena "eureka". Si la cadena "frase" es igual a "eureka", 
+se imprime en la consola el mensaje "Correcto". De lo contrario, se imprime el 
+mensaje "Incorrecto"
+*/
 
