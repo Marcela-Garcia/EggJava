@@ -1,4 +1,4 @@
-package Clase02;
+package Clase3;
 
 /*
  * Considera que estás desarrollando una web para una empresa que fabrica motores
@@ -27,7 +27,7 @@ Bucles y sentencias de salto break y continue
  * 
  */
  import java.util.Scanner;
-public class ejercicio11 {
+public class Guia3aTipoMotor {
    
     public static void main(String[] args) {
         int tipoMotor;

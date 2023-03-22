@@ -5,7 +5,7 @@ la sumaTo change this license header, choose License Headers in Project Properti
  * 
  */
  
-package Clase01;
+package Clase1y2;
 
 import java.util.Scanner;
 

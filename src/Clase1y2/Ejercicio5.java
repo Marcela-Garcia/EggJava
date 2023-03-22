@@ -2,7 +2,7 @@
  *Escribir un programa que lea un número entero por teclado y muestre
 por pantalla el doble, el triple y la raíz cuadrada de ese número.
  */
-package Clase01;
+package Clase1y2;
 import java.util.Scanner;
 public class Ejercicio5 {
 

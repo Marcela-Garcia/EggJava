@@ -2,7 +2,7 @@
 * Escribir un programa que pida tu nombre, lo guarde en una variable y lo
 muestre por pantalla.
  */
-package Clase01;
+package Clase1y2;
 
 import java.util.Scanner;
 

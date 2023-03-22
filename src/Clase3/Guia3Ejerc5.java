@@ -3,22 +3,22 @@
 solicite números al usuario hasta que la suma de los números introducidos supere el
 límite inicial.
  */
-package Clase04;
+package Clase3;
 
 import java.util.Scanner;
 
-public class ejercicio13 {
+public class Guia3Ejerc5 {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner leer = new Scanner(System.in);
         int limite, suma = 0, numero;
 
         System.out.print("Ingrese el valor límite: ");
-        limite = scanner.nextInt();
+        limite = leer.nextInt();
 
         while (suma <= limite) {
             System.out.print("Ingrese un número: ");
-            numero = scanner.nextInt();
+            numero = leer.nextInt();
             suma += numero;
         }
 

@@ -2,7 +2,7 @@
  * Escribir un programa que pida una frase y la muestre toda en mayúsculas
 y después toda en minúsculas.
  */
-package Clase01;
+package Clase1y2;
 
 import java.util.Scanner;
 

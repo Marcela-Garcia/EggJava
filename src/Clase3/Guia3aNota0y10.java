@@ -3,14 +3,14 @@
 0 y 10
 la nota se pedirá de nuevo hasta que la nota sea correcta.
  */
-package Clase04;
+package Clase3;
 
 import java.util.Scanner;
 
-public class ejercicio12 {
+public class Guia3aNota0y10 {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner leer = new Scanner(System.in);
         /*
 Declarar una variable nota de tipo double 
 para almacenar la nota ingresada por el usuario y 
@@ -23,7 +23,7 @@ esté dentro del rango válido de 0 a 10:
          */
         while (nota < 0 || nota > 10) {
             System.out.print("Ingrese una nota entre 0 y 10: ");
-            nota = sc.nextDouble();
+            nota = leer.nextDouble();
             /*
 Verificar si la nota ingresada por el usuario está dentro del rango válido 
 de 0 a 10 utilizando una estructura de control if. 
@@ -34,10 +34,10 @@ usuario que ingrese una nota válida.
                 System.out.println("Nota inválida. Intente de nuevo.");
             }
         }
-
         System.out.println("La nota ingresada es: " + nota);
     }
 }
+
 
 /*
 Dentro del método main se declaran las variables Scanner sc, int num1, int num2 
@@ -45,7 +45,7 @@ y int opcion.
 La línea Scanner sc = new Scanner(System.in); crea una instancia de la clase 
 Scanner que se utilizará para leer la entrada del usuario por teclado.
 La línea int num1, num2, opcion; declara las variables num1, num2 y opcion.
-Luego, se inicia un bucle do-while que se ejecutará hasta que el usuario 
+se inicia un bucle do-while que se ejecutará hasta que el usuario 
 seleccione la opción 5 para salir del programa.
 Dentro del bucle, se muestra el menú mediante las líneas System.out.println() 
 que imprimen las opciones del menú.

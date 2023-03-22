@@ -3,7 +3,7 @@
 equivalente en grados Fahrenheit. La fórmula correspondiente es: F = 32
 + (9 * C / 5).
  */
-package Clase01;
+package Clase1y2;
 
 import java.util.Scanner;
 
