@@ -14,25 +14,22 @@ public class Extras10 {
 
     public static void main(String[] args) {
         Scanner leer = new Scanner(System.in);
-        int num1 = (int) (Math.random() * 11); // Genera un número aleatorio entre 0 y 10
-        int num2 = (int) (Math.random() * 11); // Genera otro número aleatorio entre 0 y 10
+        int num1 = (int) (Math.random() * 11); // aleatorio entre 0 y 10
+        int num2 = (int) (Math.random() * 11); //otro número aleatorio entre 0 y 10
         int resultado = num1 * num2; // Calcula el resultado de la multiplicación
 
         System.out.println("Adivina el resultado de la multiplicación entre " + num1 + " y " + num2 + ": ");
 
-        int respuesta = -1; // Inicializa la respuesta del usuario como -1
+        int respuesta = -1; // Inicializa la respuesta como -1
 
         while (respuesta != resultado) { // Repite hasta que la respuesta sea correcta
-            respuesta = leer.nextInt(); // Lee la respuesta del usuario
-            if (respuesta == resultado) { // Si la respuesta es correcta
+            respuesta = leer.nextInt();
+            if (respuesta == resultado) {
                 System.out.println("¡Correcto!");
-            } else { // Si la respuesta es incorrecta
+            } else {
                 System.out.println("Incorrecto, intenta de nuevo.");
             }
         }
 
-       
     }
 }
-
-
