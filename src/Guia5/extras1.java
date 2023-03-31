@@ -9,17 +9,17 @@ import java.util.Scanner;
 public class extras1 {
 
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner leer = new Scanner(System.in);
         int N;
         System.out.print("Ingrese el tamaño del vector: ");
-        N = input.nextInt();
+        N = leer.nextInt();
 
         int[] vector = new int[N];
 
         System.out.println("Ingrese los elementos del vector:");
         for (int i = 0; i < N; i++) {
             System.out.print("Elemento " + (i + 1) + ": ");
-            vector[i] = input.nextInt();
+            vector[i] = leer.nextInt();
         }
 
         int suma = 0;

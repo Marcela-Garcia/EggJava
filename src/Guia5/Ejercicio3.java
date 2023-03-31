@@ -17,12 +17,11 @@ public class Ejercicio3 {
         System.out.print("Ingrese el tamaño del vector: ");
         n = leer.nextInt();
         vector = new int[n];
-        System.out.println("Ingrese los números a ingresar al vector:");
+        System.out.println("Ingrese los números de cada elemento del vector");
         for (int i = 0; i < n; i++) {
             vector[i] = leer.nextInt();
         }
-
-        // Contar la cantidad de números de 1, 2, 3, 4 y 5 dígitos
+        
         for (int i = 0; i < n; i++) {
             digitos = String.valueOf(vector[i]).length();
             switch (digitos) {
@@ -54,3 +53,5 @@ public class Ejercicio3 {
     }
 
 }
+
+        

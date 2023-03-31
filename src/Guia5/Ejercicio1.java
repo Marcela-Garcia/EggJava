@@ -7,18 +7,30 @@ package Guia5;
 public class Ejercicio1 {
 
     public static void main(String[] args) {
-
-        // Declaración del vector de tamaño 100
-        int[] numeros = new int[100];
-
-// Llenado del vector con los 100 primeros números enteros
-        for (int i = 0; i < 100; i++) {
-            numeros[i] = i + 1;
-        }
-
-// Recorrido del vector en orden descendente y muestra de los números por pantalla
-        for (int i = 99; i >= 0; i--) {
-            System.out.println(numeros[i]);
-        }
+        
+        llenarVector();
+        
     }
-      }
+    
+    public static int[] llenarVector(){
+        
+        int[] vector = new int[100];
+        
+        for (int i = 0; i < 100; i++) {
+            vector[i] = i;
+        }
+        
+        mostrarVector(vector);
+        
+        return vector;
+    }
+    
+    public static void mostrarVector(int[] vector){
+        
+        for (int i = 99; i >= 0; i--) {
+            System.out.println(vector[i]);
+        }
+         }
+     }
+
+    
